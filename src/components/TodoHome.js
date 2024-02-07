@@ -16,13 +16,13 @@ function TodoHome() {
   const [add, setAdd] = useState("");
   const [items, setItems] = useState(getItems);
 
-  const addTask = (e) => {
-    if (add === "") {
-      alert("Enter something");
-    } else {
+  const addTask = () => {
+    if (add !== "") {
       const newTask = { add };
       setItems([...items, newTask]);
       setAdd("");
+    } else {
+      alert("Enter something");
     }
   };
 
