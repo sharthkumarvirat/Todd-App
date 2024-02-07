@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Text-Utility/static/css/main.2e6e3fa3.css",
+    "main.js": "/Text-Utility/static/js/main.79b1956b.js",
+    "static/js/787.379a764d.chunk.js": "/Text-Utility/static/js/787.379a764d.chunk.js",
+    "static/media/todoList.jpeg": "/Text-Utility/static/media/todoList.c39fba2b33151f9a5fa7.jpeg",
+    "index.html": "/Text-Utility/index.html",
+    "main.2e6e3fa3.css.map": "/Text-Utility/static/css/main.2e6e3fa3.css.map",
+    "main.79b1956b.js.map": "/Text-Utility/static/js/main.79b1956b.js.map",
+    "787.379a764d.chunk.js.map": "/Text-Utility/static/js/787.379a764d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e6e3fa3.css",
+    "static/js/main.79b1956b.js"
+  ]
+}
