@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Todd-App/static/css/main.2e6e3fa3.css",
-    "main.js": "/Todd-App/static/js/main.28e6ec12.js",
+    "main.js": "/Todd-App/static/js/main.e29b790d.js",
     "static/js/787.379a764d.chunk.js": "/Todd-App/static/js/787.379a764d.chunk.js",
     "static/media/todoList.jpeg": "/Todd-App/static/media/todoList.c39fba2b33151f9a5fa7.jpeg",
     "index.html": "/Todd-App/index.html",
     "main.2e6e3fa3.css.map": "/Todd-App/static/css/main.2e6e3fa3.css.map",
-    "main.28e6ec12.js.map": "/Todd-App/static/js/main.28e6ec12.js.map",
+    "main.e29b790d.js.map": "/Todd-App/static/js/main.e29b790d.js.map",
     "787.379a764d.chunk.js.map": "/Todd-App/static/js/787.379a764d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e6e3fa3.css",
-    "static/js/main.28e6ec12.js"
+    "static/js/main.e29b790d.js"
   ]
 }
