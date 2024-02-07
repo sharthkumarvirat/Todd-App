@@ -1,0 +1,147 @@
+/* .background-img{
+  background: linear-gradient(black,image("C:\Users\nbman\OneDrive\Desktop\PROJECTS\Todo\todo_app\src\components\image.jpg"));
+} */
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: auto;
+    height: auto;
+  }
+
+  /* img {
+    width: 100%;
+    height: 50%;
+  } */
+
+  /* input {
+    position: fixed;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    width: auto;
+  } */
+  .add-button{
+    position: fixed;
+    top: 20%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    width: auto; 
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #333;
+  }
+  .main-container{
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    height: 50%;
+  }
+  .center-container{
+    height: auto;
+    width: 350px;
+  }
+  .app-heading{
+    padding: 4px;
+    color: white;  
+    /* text-align: center; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+  }
+  .input-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+  .input-box-todo{
+    width: 70%;
+    height: 30px;
+    border:1px solid black;  
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    position:fixed ;
+    top: 15%;
+    left: 38%;
+    width: auto;
+    background: transparent;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(185, 185, 185, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  .add-btn{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    border:none;
+    background-color:#316fc1;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    transition: 0.3s;
+    position: fixed;
+    top: 17%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+   
+  }
+  .add-btn:active{
+    box-shadow: none;
+  }
+  .list-container{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .list-item{
+    list-style-type: none;
+    /* background-color: #596e8b; */
+    border:2px solid rgb(161, 158, 158);
+    color:rgb(24, 23, 23);
+    padding:3px;
+    padding-left: 5px;
+    border-radius: 5px; 
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    
+  }
+  .icons{
+    position: absolute;
+    right: 10px;
+  }
+  .icons i{
+    margin: 4px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.1s;   
+  }
+  .icons i:hover{
+    transform: scale(1.2);  
+  }
+  .icon-delete:hover{
+    color: red;
+  }
+  .sub-container{
+    height: 55vh;
+  }
+
+
+
+  
