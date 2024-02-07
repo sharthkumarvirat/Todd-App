@@ -1,21 +1,15 @@
-import "./App.css";
-import Dash from "./components/Dash";
-import TodoHome from "./components/TodoHome";
-
-
+// import "./App.css";
+// import Dash from "./components/Dash";
+import Insta from "./components/Insta";
+// import TodoHome from "./components/TodoHome";
 
 function App() {
   return (
-
-    <div className="App">
-      <div className="main-container">
-        {/* <Dash /> */}
-        
-        <TodoHome />
-      </div>
+    <div>
+      {/* <Dash /> */}
+      <Insta />
+      {/* <TodoHome /> */}
     </div>
-  
-   
   );
 }
 

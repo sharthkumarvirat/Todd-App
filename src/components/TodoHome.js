@@ -14,7 +14,7 @@ function TodoHome() {
   };
 
   const [add, setAdd] = useState("");
-  const [items, setItems] = useState(getItems);
+  const [items, setItems] = useState(getItems());
 
   const addTask = () => {
     if (add !== "") {

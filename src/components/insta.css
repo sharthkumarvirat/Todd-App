@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(210, 198, 183, 0.534);
+}
+.box{
+   border: 0px solid rgb(150, 105, 105);
+   width: auto;
+   height: auto;
+   background:linear-gradient( rgb(205, 236, 31),rgb(87, 85, 85));
+   box-shadow: 0px 6px 15px black;
+   animation: col;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@keyframes col{
+    10%{background: linear-gradient(rgb(231, 131, 131),rgb(186, 57, 186));}
+    25%{background: linear-gradient(rgb(177, 138, 47),rgb(23, 71, 53));}
+    50%{background: linear-gradient(rgb(50, 165, 165),rgb(154, 21, 59));}
+    75%{background: linear-gradient(rgb(0, 217, 255),rgb(16, 109, 20));}
+    90%{background: linear-gradient(rgb(211, 145, 145),rgb(255, 0, 0));}
+}
+            
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.place>button{
+    padding: 7PX 10PX;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: rgba(67, 0, 211, 0.744);
+    border-radius: 10px;
+    box-shadow: 0px 1px  6px rgb(35, 32, 32);
+}
+    
+.place{
+    display: flex;
+    margin: 10px;
+   
+}
+ 
+.place>input{
+    padding: 3px 15px;
+    margin: 6px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: rgb(117, 10, 10);
+} 
+.mainpage1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    background-color: rgba(242, 250, 16, 0.411);
+    margin: 6px 10px;
+    border-radius: 10px;
+   
+}
